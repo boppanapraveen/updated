@@ -27,11 +27,19 @@
         nav a {
             float: left;
             display: block;
-            color: #fff;
             text-align: center;
             padding: 14px 16px;
             text-decoration: none;
-            background-color: #4CAF50;
+            color: #fff;
+        }
+
+        nav a:hover {
+            background-color: #45a049; /* Darker color when hovered for better contrast */
+        }
+
+        /* Update background color for active link if needed */
+        nav a:active {
+            background-color: #357c42;
         }
 
         section {
@@ -51,9 +59,18 @@
     </header>
 
     <nav>
-        <a href="#" style="color: #fff; background-color: #4CAF50;">Home</a>
-        <a href="#" style="color: #fff;">Products</a>
-        <a href="#" style="color: #fff;">Contact</a>
+        <a href="#" style="color: #333; background-color: #4CAF50; padding: 14px 16px; text-decoration: none; display: inline-block;">
+            Home
+        </a>
+        
+        <a href="#" style="color: #333; background-color: #4CAF50; padding: 14px 16px; text-decoration: none; display: inline-block;">
+            Products
+        </a>
+        
+        <a href="#" style="color: #333; background-color: #4CAF50; padding: 14px 16px; text-decoration: none; display: inline-block;">
+            Contact
+        </a>
+        
     </nav>
 
     <section>
